@@ -1,0 +1,30 @@
+/*计算器表格*/
+table.calculator{
+	height: 450px;
+	width: 450px;
+	text-align: center;
+	font-size: 30px;
+	margin:20px auto;
+}
+/*计算器显示框*/
+.calculator thead input{
+	height: 100px;
+	width: 450px;
+	background-color: #a46f9f;
+	color: #fff;
+	text-align: right;
+	padding-right:30px;
+	font-size: 60px;
+}
+.calculator td{
+	background-color: #e0e0e0;
+	border: 1px solid #a8a8a8;
+	width: 75px;
+}
+.first-row td{
+	background-color: #d6d6d6;
+}
+.calculator td.operator{
+	background-color: #f79231;
+	color: #fff;
+}
